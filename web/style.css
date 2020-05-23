@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    width: 60px;
+    height: 60px; 
+    margin-left: 30px;
+    margin-right: 10px;
+}
+li, a, .btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #24253d;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #ffffff;
+    border-style: none;
+    padding: 0px 10px 0px 0px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 15px 20px;
+}
+
+.nav_link {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+}
+
+li {
+    padding: 18px 35px 0px 0px;
+}
+
+
+
+/* COVER */
+#banner {
+        background-color: #ffffff;
+		color: #ffffff;
+		padding: 12em 0 18em 0;
+		background-image: url(/img/banner-1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% center;
+		text-align: left;
+		position: relative;
+        z-index: 99;
+    }
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 70px;
+    transform: translate(0%, -10%);
+    margin: 0px 22%;
+    border: 0px;
+    width: 60vw;
+    object-fit: cover;
+  
+}    
+
+.search-box input[type="text"] {
+    border: 0px;
+	width: 40%;
+    padding: 10px 10px;
+    color: #9b9b9b;
+}
+
+
+.type {
+    width:200px;
+}
+
+#banner .search-btn {
+    width: 10%;
+    height: 80%;
+    border-radius: 8px;
+    background-color: #e5634d;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+#banner .btn {
+    color: #9b9b9b;
+    transform: bold;
+}
+
+#banner .search-btn:hover {
+    background-color: #FF9200;
+}
+
+input::placeholder {
+    color: #9b9b9b;
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 17px;
+
+  }
+.search-box .dropdown {
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .logo {
+        width: 40px;
+        height: 40px; 
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    li, a, .btn {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #24253d;
+        text-decoration: none;
+    }
+
+}
